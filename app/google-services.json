@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "33191815667",
+    "firebase_url": "https://managercounts-effce.firebaseio.com",
+    "project_id": "managercounts-effce",
+    "storage_bucket": "managercounts-effce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33191815667:android:9c2497bb75df11c6",
+        "android_client_info": {
+          "package_name": "com.example.jacobo.managercounts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33191815667-1am002l2ccu9eeksit7ug5h0vau9h1ns.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jacobo.managercounts",
+            "certificate_hash": "ec86c4ff43ac714d6caf95901eb458e94a4df994"
+          }
+        },
+        {
+          "client_id": "33191815667-s0ifsplpt2u36gngminpdu9l82fsgm5i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3rtwPVzcSlJXRmPk-Q2YYAdPsWzNVy9k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "33191815667-s0ifsplpt2u36gngminpdu9l82fsgm5i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

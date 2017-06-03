@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jacobo.managercounts.FragmentoMiPerfil">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/usuario"/>
+            <TextView style="@style/StyleTextViewDatos"
+                android:hint="@string/nombre"
+                android:id="@+id/tNombreCliente"/>
+            <TextView style="@style/StyleTextViewDatos"
+                android:hint="@string/telefono"
+                android:id="@+id/tTelefono"/>
+            <TextView style="@style/StyleTextViewDatos"
+                android:hint="@string/direccion"
+                android:id="@+id/tDireccion"/>
+            <TextView style="@style/StyleTextViewDatos"
+                android:hint="@string/barrio"
+                android:id="@+id/tBarrio"/>
+            <TextView style="@style/StyleTextViewDatos"
+                android:hint="@string/cuenta"
+                android:id="@+id/tCuenta"/>
+            <TextView style="@style/StyleTextViewDatos"
+                android:hint="@string/pago"
+                android:id="@+id/tProxPago"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

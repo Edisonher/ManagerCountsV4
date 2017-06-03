@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageButton
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:id="@+id/ImagenProd"
+            android:layout_weight="2"
+
+            />
+
+
+        <android.support.v4.widget.Space
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            />
+        <EditText style="@style/StyleEditTextDatos"
+            android:hint="@string/nombreprod"
+            android:inputType="textPersonName"
+            android:id="@+id/eNombreprod"/>
+        <EditText style="@style/StyleEditTextDatos"
+            android:hint="@string/precio"
+            android:inputType="phone"
+            android:id="@+id/ePrecioprod"/>
+        <EditText style="@style/StyleEditTextDatos"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:hint="@string/descripcion"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:id="@+id/eDescripcionprod"/>
+
+
+    </LinearLayout>
+    <android.support.v4.widget.Space
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button style="@style/StyleButton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/guardar"
+            android:id="@+id/bAdguardarprod"/>
+        <Button style="@style/StyleButton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cancelar"
+            android:id="@+id/bcancelarprod"/>
+
+    </LinearLayout>
+
+</LinearLayout>

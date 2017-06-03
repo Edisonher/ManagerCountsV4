@@ -1,0 +1,73 @@
+<resources>
+
+    <!--FACEBOOK-->
+    <string name="facebook_app_id">130296614189164</string>
+
+    <string name="title_activity_drawer_cliente">ManagerCounts Cliente</string>
+    <string name="title_activity_drawer">ManagerCounts Admin</string>
+    <string name="app_name">Manager Counts</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--STRINGS DE LA ACTIVIDAD LOGIN-->
+    <string name="usuario">USUARIO</string>
+    <string name="contrasena">CONTRASEÑA</string>
+    <string name="InicioSesion">INICIAR</string>
+    <string name="registrarse">REGISTRARSE</string>
+
+    <!--STRINGS DE LA ACTIVIDAD REGISTRO-->
+    <string name="nombre">NOMBRE</string>
+    <string name="apellidos">APELLIDO</string>
+    <string name="direccion">DIRECCIÓN</string>
+    <string name="telefono">TELÉFONO</string>
+    <string name="barrio">BARRIO</string>
+    <string name="Confir.contraseña">CONFIRMAR CONTRASEÑA</string>
+    <string name="correo">CORREO ELECTRÓNICO</string>
+    <string name="cancelar">CANCELAR</string>
+
+    <!--STRINGS DEL MENU DENAVEGACION DEL VENDEDOR-->
+    <string name="inicio">Inicio</string>
+    <string name="clientes">Clientes</string>
+    <string name="productos">Productos</string>
+    <string name="revisar_pedidos">Revisar Pedidos</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+
+    <!--STRINGS DEL MENU DENAVEGACION DEL CLIENTE-->
+    <string name="mi_cuenta">Mi Cuenta</string>
+    <string name="catalogo">Catálogo</string>
+    <string name="hacer_pedidos">Hacer Pedidos</string>
+    <string name="abono">ABONO</string>
+    <string name="saldo">SALDO</string>
+    <string name="compras">COMPRAS</string>
+    <string name="ventas">VENTAS</string>
+    <string name="producto">PRODUCTO</string>
+    <string name="nombreprod">NOMBRE PRODUCTO</string>
+    <string name="precio">PRECIO</string>
+    <string name="guardar">GUARDAR</string>
+    <string name="cuenta">CUENTA</string>
+    <string name="pago">PROXIMO PAGO</string>
+    <string name="confirmar">CONFIRMAR</string>
+    <string name="abonar">ABONAR</string>
+    <string name="nombrenegocio">NOMBRE DEL NEGOCIO</string>
+    <string name="AdministradorDeCuentas">Administrador de cuentas</string>
+    <string name="NombresYApellidos">NOMBRES Y APELLIDOS</string>
+    <string name="agregar">AGREGAR</string>
+    <string name="borrar">ELIMINAR</string>
+    <string name="rechazar">RECHAZAR</string>
+    <string name="modificar">MODIFICAR</string>
+    <string name="fb">FACEBOOK</string>
+    <string name="g">GOOGLE</string>
+    <string name="cedula">CEDULA</string>
+    <string name="cancel_login">LOGUEO CANCELADO</string>
+    <string name="error_login">ERROR AL INGRESAR</string>
+    <string name="firebase_error_login">ERROR CON FIREBASE</string>
+    <string name="proximopago">FECHA PROXIMO PAGO</string>
+    <string name="descripcion">Descripcion del Producto</string>
+    <string name="not_login">OCURRIO UN ERROR AL LOGUEARSE</string>
+</resources>

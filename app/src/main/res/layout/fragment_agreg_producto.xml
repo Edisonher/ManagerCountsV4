@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jacobo.managercounts.FragmentAgregProducto"
+    android:orientation="vertical">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+       <ImageView
+           android:layout_width="250dp"
+           android:layout_height="250dp"
+           android:layout_gravity="center"
+           android:src="@drawable/panes"
+           android:layout_weight="2" />
+       <android.support.v4.widget.Space
+           android:layout_width="20dp"
+           android:layout_height="20dp"
+           />
+       <EditText style="@style/StyleEditTextDatos"
+           android:hint="@string/nombreprod"
+           android:inputType="textPersonName"
+           android:id="@+id/eNewproducto"/>
+       <EditText style="@style/StyleEditTextDatos"
+           android:hint="@string/precio"
+           android:inputType="textPassword"
+           android:id="@+id/eLClave"/>
+
+   </LinearLayout>
+    <android.support.v4.widget.Space
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button style="@style/StyleButton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/guardar"
+            android:onClick="guardarprod"
+            android:id="@+id/bGuardarprod"/>
+        <Button style="@style/StyleButton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cancelar"
+            android:onClick="cancelarprod"
+            android:id="@+id/bcancelarprod"/>
+
+    </LinearLayout>
+
+</LinearLayout>

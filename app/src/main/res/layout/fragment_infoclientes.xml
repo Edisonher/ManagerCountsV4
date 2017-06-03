@@ -1,0 +1,166 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jacobo.managercounts.FragmentoInfoclientes"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="155dp"
+                    android:src="@drawable/usuario"
+                    android:layout_gravity="center"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="7"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:id="@+id/Infofechapago"
+                        android:text="FECHA PAGO"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        />
+
+                    <Button
+                        android:id="@+id/bFecha"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="37dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/calendaricon"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:id="@+id/Infonombre"
+                    android:text="@string/nombre"
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:id="@+id/Infocedula"
+                    android:text="@string/cedula"
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="7"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:id="@+id/Infodireccion"
+                    android:text="@string/direccion"
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+                    />
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1
+"
+                    android:layout_height="37dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/maps"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:id="@+id/Infotelefono"
+                    android:text="@string/telefono"
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:id="@+id/Infobarrio"
+                    android:text="@string/barrio"
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_weight="6"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:id="@+id/eValorabono"
+                        android:hint="@string/abono"
+                        android:textSize="20sp"
+                        android:inputType="phone"
+                        android:textAlignment="center"
+                        />
+                    <Button style="@style/StyleButton"
+                        android:layout_width="0dp"
+                        android:layout_weight="3"
+                        android:text="@string/abonar"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:id="@+id/Infosaldo"
+                    android:text="@string/saldo"
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <Button style="@style/StyleButton"
+                        android:text="@string/compras"/>
+                    <Button style="@style/StyleButton"
+                        android:text="@string/ventas"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
